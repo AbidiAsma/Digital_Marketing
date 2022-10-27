@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    flex: auto;
+}
+.parent{
+    width: 1000px;
+    height: 600px;
+    margin: 10%;
+}
+.header{
+    display: inline-block;
+    width: 60em;
+    margin: 10px;
+   
+}
+.parent .header .logo{
+    float: left;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.parent .header .nav-Bar{
+    float: right;
+    margin: 5px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.main{
+    width: 60em;
+    right: 90%;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+}
+.main .section-Content{
+    width: 40%;
+    height: 90%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.main .section-Content .title{
+    width: 20em;
+    margin: 20px;
+    padding: 10px;
+}
+.main .section-Content .title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: rgb(34, 34, 59);
+
+}
+.main .section-Content .title p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: orange;
+}
+.main .section-Content .description{
+    font-family: 'Nunito', sans-serif;
+    margin: 20px;
+}
+.main .section-Content .button{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #a891c7; /* Green */
+    border: none;
+    border-radius: 120px;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+.main .img{
+    width: 60%;
+    height: 90%;
+    float: right;
+}
