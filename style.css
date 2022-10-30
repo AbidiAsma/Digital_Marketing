@@ -69,6 +69,9 @@
     padding: 15px;
     display: inline-block;
 }
+.main .section-Content .button:hover{
+    background-color: gray;
+}
 .main .img{
     width: 60%;
     height: 90%;
