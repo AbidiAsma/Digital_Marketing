@@ -12,18 +12,32 @@
     display: inline-block;
     width: 60em;
     margin: 10px;
+    line-height: 10px;
    
 }
 .parent .header .logo{
+    width: 40%;
     float: left;
     margin: 5px;
     font-family: 'Poppins', sans-serif;
 }
-.parent .header .nav-Bar{
-    float: right;
-    margin: 5px;
+.nav-bar{
+    width: 60%;
+    text-decoration: none;
+}
+.nav-Bar li{
+    list-style: none;
+}
+.parent .header .nav-Bar a{
+    margin: 10px;
+    padding: 10px;
     font-family: 'Nunito', sans-serif;
-
+    text-decoration: none;
+    color: black;
+}
+#sign-up{
+    background-color: #a891c7;
+    border-radius: 10px;
 }
 .main{
     width: 60em;
@@ -55,25 +69,25 @@
     font-size: 40px;
     color: orange;
 }
-.main .section-Content .description{
+.main .section-Content .description p{
     font-family: 'Nunito', sans-serif;
     margin: 20px;
 }
-.main .section-Content .button{
+.main .section-Content a{
     text-align: center;
-    margin-top: 20px;
-    background-color: #a891c7; /* Green */
-    border: none;
-    border-radius: 120px;
     color: white;
     padding: 15px;
     display: inline-block;
+    background-color: #a891c7;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
 }
-.main .section-Content .button:hover{
+.main .section-Content a:hover{
     background-color: gray;
 }
 .main .img{
-    width: 60%;
-    height: 90%;
+    width: 300px;
+    height: 300px;
     float: right;
 }
